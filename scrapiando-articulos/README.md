@@ -1,5 +1,3 @@
-Aquí tienes un `README.md` claro, profesional y adaptado a ese proyecto específico:
-
 ```markdown
 # 📰 Web Scraping: Titulares de la BBC Mundo
 
@@ -57,8 +55,3 @@ Si tienes ideas de mejora, ¡no dudes en abrir un **Pull Request**! También pue
 ---
 
 ¡Gracias por pasar! 🙌
-
-```
-
-¿Quieres que incluya el contenido de `requirements.txt` o el código de ejemplo en `main.py` también?
-```
