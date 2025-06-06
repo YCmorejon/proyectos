@@ -10,4 +10,4 @@ def extraer_html(URL):
     except Exception as e:
         print(f"Error al intentar realizar la petición : {e}")
         
-#Obtner datos
+#Parsear html y obtener datos
