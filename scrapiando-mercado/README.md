@@ -20,14 +20,11 @@ Este proyecto incluye técnicas básicas para manejar estas dificultades.
 
 ## 📂 Estructura del proyecto
 
-"""
-
-mercadolibre\_scraper/
+mercadolibre_scraper/
 ├── main.py              # Script principal con la lógica de scraping
 ├── requirements.txt     # Librerías necesarias
 └── README.md            # Este archivo
 
-"""
 
 
 ## ▶️ Cómo ejecutar
