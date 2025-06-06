@@ -1,4 +1,3 @@
-```markdown
 # 🛒 Web Scraping: Precios en MercadoLibre Argentina
 
 Este proyecto forma parte de mi serie de ejercicios prácticos para aprender **Web Scraping**. En este caso, extraigo información de productos desde el sitio [MercadoLibre Argentina](https://www.mercadolibre.com.ar/), simulando una búsqueda real.
@@ -61,6 +60,5 @@ mercadolibre\_scraper/
 Si tienes mejoras que aportar, ¡no dudes en abrir un Pull Request!
 También puedes copiar y reutilizar este código sin problema.
 
----
 
 ¡Gracias por visitar este proyecto! 🚀
