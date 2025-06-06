@@ -42,6 +42,7 @@ class ScrapingController:
             
             if datos:
                 logging.info(f"Se obtuvieron {len(datos) if isinstance(datos, list) else 1} registros")
+                print("---Noticias---")
                 for dato in datos:
                     print(dato)
             else:
