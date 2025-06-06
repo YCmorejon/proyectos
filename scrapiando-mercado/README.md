@@ -20,34 +20,30 @@ Este proyecto incluye técnicas básicas para manejar estas dificultades.
 
 ## 📂 Estructura del proyecto
 
-```
 
 mercadolibre\_scraper/
 ├── main.py              # Script principal con la lógica de scraping
 ├── requirements.txt     # Librerías necesarias
 └── README.md            # Este archivo
 
-````
 
 ## ▶️ Cómo ejecutar
 
 1. Clona este repositorio:
-   ```bash
+
    git clone https://github.com/tu_usuario/mercadolibre_scraper.git
    cd mercadolibre_scraper
-````
+
 
 2. Instala las dependencias:
 
-   ```bash
    pip install -r requirements.txt
-   ```
+
 
 3. Ejecuta el script con un término de búsqueda (ejemplo: laptop):
 
-   ```bash
    python main.py
-   ```
+   
 
 ## 📝 Notas adicionales
 
