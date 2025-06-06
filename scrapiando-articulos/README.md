@@ -1,4 +1,3 @@
-```markdown
 # 📰 Web Scraping: Titulares de la BBC Mundo
 
 Este proyecto forma parte de mi serie de ejercicios para aprender **Web Scraping** con Python. En este primer nivel, me enfoco en los fundamentos usando `requests` y `BeautifulSoup`.
