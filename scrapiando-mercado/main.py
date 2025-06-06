@@ -31,11 +31,11 @@ def main():
     html = extraer_html(URL)
     if html:
         logging.info("Empezando a extraer los datos")
-        datos = obtener_datos(html)
-        for name , price in zip(datos[0],datos[1]):
+        nombres,precios = obtener_datos(html)
+        for name , price in zip(nombres,precios):
             print(f"Nombre : {name.text}\nPrecio : {price.text}")
     else:
         logging.error("Error al empezar extraer los datos")
 
-if __name__ == main():
+if __name__ == "__main__":
     main()
