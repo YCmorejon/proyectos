@@ -45,6 +45,7 @@ class ScrapingController:
                 print("---Noticias---")
                 for dato in datos:
                     print(dato)
+                return True
             else:
                 logging.warning("No se encontraron datos para extraer")
                 return False
