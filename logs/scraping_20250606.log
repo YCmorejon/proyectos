@@ -56,3 +56,8 @@
 2025-06-06 07:25:58,403 - INFO - Extrayendo datos del HTML
 2025-06-06 07:25:58,442 - INFO - Se obtuvieron 10 registros
 2025-06-06 07:25:58,442 - INFO - Proceso completado exitosamente
+2025-06-06 10:30:06,446 - INFO - Iniciando proceso de scraping
+2025-06-06 10:30:06,447 - INFO - Extrayendo HTML de https://www.bbc.com/mundo/topics/cyx5krnw38vt
+2025-06-06 10:30:07,830 - INFO - Extrayendo datos del HTML
+2025-06-06 10:30:07,866 - INFO - Se obtuvieron 10 registros
+2025-06-06 10:30:07,868 - ERROR - El proceso finalizó con errores

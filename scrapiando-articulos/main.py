@@ -42,7 +42,8 @@ class ScrapingController:
             
             if datos:
                 logging.info(f"Se obtuvieron {len(datos) if isinstance(datos, list) else 1} registros")
-                return datos
+                for dato in datos:
+                    print(dato)
             else:
                 logging.warning("No se encontraron datos para extraer")
                 return False
