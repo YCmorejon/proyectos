@@ -1,11 +1,16 @@
-from spider import Scraper
+from spider import SimpleScraper
 import pandas as pd
 
 def main():
-    scraper = Scraper()
-    articulos = scraper.extraer_datos()
-    df = pd.DataFrame({"Articulos" : articulos})
-    df.to_csv("articulos.csv",index=False)
+    # Obtener artículos
+    articulos = SimpleScraper().obtener_articulos()
     
+    # Guardar en CSV si hay artículos
+    if articulos:
+        pd.DataFrame({"Articulos": articulos}).to_csv("articulos.csv", index=False)
+        print(f"Se guardaron {len(articulos)} artículos en articulos.csv")
+    else:
+        print("No se pudieron obtener artículos")
+
 if __name__ == "__main__":
     main()
