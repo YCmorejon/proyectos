@@ -27,17 +27,10 @@ class Scraper:
 
             sopa = BeautifulSoup(html, "html.parser")
             articulos = sopa.find_all("div", {"class": "promo-text"})[0:10]
-            return [articulo.get_text(strip=True) for articulo in articulos]
+            return [articulo.get_text(strip=True).text for articulo in articulos]
         except Exception as e:
             logging.error(f"Error al extraer datos: {e}")
             return None
-
-    def ejecutar(self):
-        """Método principal que ejecuta el scraping completo"""
-        datos = self.extraer_datos()
-        if datos:
-            return datos
-        return None
 
 
 
